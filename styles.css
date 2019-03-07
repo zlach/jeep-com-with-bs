@@ -1,0 +1,289 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+/***
+    navbar below
+***/
+
+.navbar{
+    background-color: black;
+}
+
+/* .navbar-expand-lg{
+    height: 80px;
+}
+
+.navbar-expand-lg .navbar-brand img{
+    height: 35px;
+} */
+
+.navbar-brand img{
+    height: 25px;
+}
+
+.navbar-toggler{
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+.nav-item{
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-nav .nav-item{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-right a i{
+    padding-left: 8px;
+}
+
+.nav-right i{
+    font-size: 14px;
+}
+
+.navbar-nav i{
+    padding-left: .5vw;
+    padding-right: .2vw;
+    font-size: 1.2vw;
+}
+
+.navbar-nav .link-icon{
+    font-size: .8vw;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.right-navbar-container{
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.right-navbar-container a{
+    text-decoration: none;
+}
+
+.spanish{
+	display: flex;
+	align-items: center;
+	padding: 3px 0px;
+	border-left: 1px solid white;
+}
+
+.not-spanish{
+	display: flex;
+	align-items: center;
+}
+
+.not-spanish span{
+    font-size: 1vw;
+    font-weight: 500;
+	color: white;
+	padding-left: 10px;
+}
+
+.spanish span{
+	font-size: 12px;
+    padding-left: 10px;
+    color: white;
+}
+
+.not-spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+}
+
+.spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+/***
+    carousel below
+***/
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 2px solid #bfbfbf;
+    background-color: #ffba00;
+}
+
+.slide-six{
+    top: 0px;
+}
+
+.slide-six span{
+    font-size: 10px;
+}
+
+.slide-six img{
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.slide-six a{
+    background-color: #ffba00;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+/***
+    vehicles below
+***/
+
+.vehicles-container{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.vehicles-header{
+    font-weight: 700;
+	font-size: 1.1em;
+	color: #333333;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.vehicles-header i{
+    font-size: .5em;
+}
+
+.vehicles-container .card{
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.vehicles-container .card .card-text{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+
+.vehicles-container .card .card-body{
+    padding-top: 0px;
+}
+
+.vehicles-container .card .card-body span{
+    color: #636363;
+    font-size: 8px;
+}
+
+/***
+    promo below
+***/
+
+.promo-container{
+    background-color: #d1d1d1;
+    padding: 1rem;
+}
+
+.promo-container .card{
+    border: none;
+    border-radius: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #d1d1d1;
+}
+
+.promo-container .card img{
+    border-radius: 0;
+}
+
+.promo-container .card .card-body{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.promo-container .card .card-body h5{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.promo-container .card .list-group .list-group-item{
+    border: none;
+    border-radius: 0;
+    background-color: #212121;
+    color: white;
+    height: 30px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.promo-container .card .list-group .list-group-item .fas{
+    color: #ffba00;
+    padding-left: 25px;
+}
+
+.promo-container .card .list-group{
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.promo-container .card .list-group:last-child .list-group-item:last-child{
+    border-radius: 0;
+}
+
+.random{
+    color: black;
+    background-color: #e7e7e7;
+    padding: 2rem 2rem;
+}
+
+.random span{
+    font-size: 12px;
+    font-weight: 700;
+    width: 180px;
+}
+
+.random a{
+    background-color: #ffba00;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 250px;
+    display: block;
+}
+
+.kelley-container{
+    background-color: #d1d1d1;
+    padding: 40px 0px;
+}
+
+.kelley-big-text{
+    
+}
