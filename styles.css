@@ -313,3 +313,68 @@ body{
     border-radius: 2px;
 }
 
+.kelley-text{
+    max-width: 600px;
+}
+
+.search-container{
+    background-color: #212121;
+    padding: 30px;
+}
+
+.search-item{
+    color: #bfbfbf;
+    padding: 10px;
+}
+
+.search-bar input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 35px;
+}
+
+.search-bar button{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 50%;
+    background-color: #ffba00;
+    color: black;
+    font-weight: 700;
+    border-color: #ffba00;
+    font-size: 12px;
+    height: 35px;
+}
+
+/* .accordion .card-header:first-child{
+    border-radius: 0px;
+} */
+
+.accordion{
+    padding: 10px;
+}
+
+.accordion .card{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+.accordion button{
+    color: white;
+    text-decoration: none;
+}
+
+.accordion h2{
+    border-bottom: 1px solid white;
+}
+
+.accordion button{
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    padding: 10px 0px;
+}
+
+.accordion span{
+    font-size: 12px;
+    font-weight: 700;
+}
