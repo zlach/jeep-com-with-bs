@@ -123,8 +123,153 @@ body{
     background-color: #ffba00;
 }
 
+
+.medium-carousel-jeep{
+    background-image: url('secret.png');
+    background-size: cover;
+    height: 55vw;
+    background-position: right center;
+}
+
+.medium-carousel-words{
+    width: 40vw;
+}
+
+.medium-carousel-words img{
+    height: 12vw;
+    margin-bottom: 10px;
+}
+
+.medium-carousel-words .normal{
+    line-height: 22px;
+    font-size: 1em;
+    color: white;
+}
+
+.medium-carousel-words .fine{
+    font-size: .7em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.medium-carousel-words a{
+    background-color: #ffba00;
+    border-color: #ffba00;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/** **/
+
+.medium-carousel-cars{
+    height: 55vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url('buncha-jeeps.jpg')
+}
+
+
+
+.trans-box2{
+    background-color: rgb(0,0,0,.5);
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+
+.trans-box2 a{
+    margin: 10px 30px;
+    background-color: #ffba00;
+    border-color: #ffba00;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.trans-box2 a:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
+}
+
+.plus-size2{
+    width: 50px;
+}
+
+.trans-box2 table{
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.table-guy2{
+    width: 30vw;
+}
+
+.trans-box2 td{
+    padding: 5px;
+}
+
+/** **/
+
+.trans-box{
+    background-color: rgb(0,0,0,.5);
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+
+.trans-box a{
+    margin: 10px 30px;
+    background-color: #ffba00;
+    border-color: #ffba00;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.trans-box a:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
+}
+
+.plus-size{
+    width: 50px;
+}
+
+.trans-box table{
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+
+.table-guy{
+    width: 30vw;
+}
+
+.trans-box td{
+    padding: 5px;
+}
+
+.small-carousel-cars{
+    height: 125vw;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url('cars-cars-cars.jpg');
+}
+
 .slide-six{
     top: 0px;
+    height: 100px;
 }
 
 .slide-six span{
@@ -147,6 +292,12 @@ body{
     width: 250px;
     display: block;
     margin: auto;
+}
+
+.slide-six a:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
 }
 
 /***
@@ -284,6 +435,12 @@ body{
     display: block;
 }
 
+.random a:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
+}
+
 .kelley-container{
     background-color: #d1d1d1;
     padding: 40px 0px;
@@ -311,6 +468,12 @@ body{
     font-weight: 500;
     border: none;
     border-radius: 2px;
+}
+
+.kelley-text-container a:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
 }
 
 .kelley-text{
@@ -345,12 +508,18 @@ body{
     height: 35px;
 }
 
+.search-bar button:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
+}
+
 /* .accordion .card-header:first-child{
     border-radius: 0px;
 } */
 
 .accordion{
-    padding: 10px;
+    padding: .75rem 1.25rem;
 }
 
 .accordion .card{
@@ -377,4 +546,50 @@ body{
 .accordion span{
     font-size: 12px;
     font-weight: 700;
+}
+
+.accordion .card .card-body span{
+    padding: 7px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfbfbf;
+}
+
+.socials{
+    color: white;
+    padding: 10px 0px;
+}
+
+.socials .row{
+    padding: .75rem 1.25rem;
+}
+
+.socials span i{
+    font-size: 30px;
+    margin-top: 15px
+}
+
+.socials span img{
+    margin-top: 15px;
+}
+
+.footer{
+    padding: .75rem 1.25rem;
+}
+
+.footer-container{
+    border-top: 1px solid #212121;
+}
+
+.footer-container span{
+    padding: 10px 25px 0px 0px;
+    font-size: 10px;
+    color: #bfbfbf;
+}
+
+.footer-text{
+    font-size: 10px;
+    color: #bfbfbf;
+    max-width: 500px;
+    margin-top: 20px;
 }
